@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body class="fundoPrimario">
+
+        <header>
+            <img src="img/header_weblocadora.jpg" alt="Banner da Locadora" class="banner">
+        </header>
+        
+
+        <div class="form">
+
+            <form name = "Formulario">
+
+
+                <h1>Cadastro de Usuários</h1>
+
+                <h2>Dados Pessoais</h2>
+
+                    <label>Nome: </label><input style="border-radius: 5px" type = "text" name = "nome" size = "100">
+                    <label>Endereço: </label><input type = "text" name = "endereco" size = "100">
+                    <label>E-Mail: </label><input type = "text" name = "email" size = "100">
+                    <label>Cidade: </label><input type = "text" name = "cidade" size = "100">
+                    <label >Estado: </label><select name = "estado" > 
+                        <option value = "AC"> Acre</option>
+                        <option value = "AL"> Alagoas</option>
+                        <option value = "AP"> Amapá</option>
+                        <option value = "AM"> Amazonas</option>
+                        <option value = "BA"> Bahia</option>
+                        <option value = "CE"> Ceará</option>
+                        <option value = "ES"> Espírito Santo</option>
+                        <option value = "GO"> Goiás</option>
+                        <option value = "MA"> Maranhão</option>
+                        <option value = "MT"> Mato Grosso</option>
+                        <option value = "MS"> Mato Grosso Do Sul</option>
+                        <option value = "MG"> Minas Gerais</option>
+                        <option value = "PA"> Pará</option>
+                        <option value = "PB"> Paraíba</option>
+                        <option value = "PR"> Paraná</option>
+                        <option value = "PE"> Pernambuco</option>
+                        <option value = "PI"> Piauí</option>
+                        <option value = "RJ"> Rio De Janeiro</option>
+                        <option value = "RS"> Rio Grande Do Sul</option>
+                        <option value = "RO"> Rondônia</option>
+                        <option value = "RR"> Roraima</option>
+                        <option value = "SC"> Santa Catarina</option>
+                        <option value = "SP" selected> São Paulo</option>
+                        <option value = "SE"> Sergipe</option>
+                        <option value = "TO"> Tocantins</option>
+                    </select>
+                    <label>Sexo: </label>
+                    <input type = "radio" name = "sex" value = "masculino" checked="true"> Masculino
+                    <input type = "radio" name = "sex" value = "feminino"> Feminino
+
+                <h2>Preferências de Filmes</h2>
+
+                    <label>Escolha os filmes que você mais gosta </label>
+                    <input type = "checkbox" name = "movieType" value = "acao"> Ação
+                    <input type = "checkbox" name = "movieType" value = "aventura"> Aventura
+                    <input type = "checkbox" name = "movieType" value = "comedia"> Comédia
+                    <input type = "checkbox" name = "movieType" value = "suspense"> Suspense
+                    <input type = "checkbox" name = "movieType" value = "drama"> Drama
+                    <input type = "checkbox" name = "movieType" value = "romance"> Romance
+                    <input type = "checkbox" name = "movieType" value = "terror"> Terror
+
+
+                <h2>Acesso</h2>
+                    <label>Usuário: </label><input type = "text" name = "user" size = "50">
+                    <label>Senha: </label><input type = "password" name = "login" size = "50">
+
+                    <input type="button" name="enviar" value="Cancelar">
+                    <input type="reset" name="limpar" value="Limpar">
+                    <input type="submit" name="nada" value="Cadastrar">
+
+                <a href="index.html"> Voltar </a>
+
+            </form>
+        </div>
+    </body>
+</html>

@@ -128,3 +128,279 @@
 .catalogo img:hover {
     transform: scale(1.05);
 }
+
+/* Página de Cadastro */
+.form {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: #0a3a92;
+    border: 2px solid #f8dca7;
+    border-radius: 10px;
+}
+
+.form h1 {
+    color: #f8dca7;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.form label {
+    color: white;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form input[type="button"],
+.form input[type="reset"],
+.form input[type="submit"] {
+
+    background-color: #032055;
+    color: white;
+
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+
+    padding: 10px 20px;
+    cursor: pointer;
+
+    margin-right: 10px;
+
+    transition: 0.3s;
+}
+
+.form input[type="button"]:hover,
+.form input[type="reset"]:hover,
+.form input[type="submit"]:hover {
+    background-color: #f8dca7;
+    color: #032055;
+}
+
+.form a {
+    display: inline-block;
+    margin-top: 20px;
+
+    color: #f8dca7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.form h2 {
+    color: #f8dca7;
+    border-bottom: 1px solid #f8dca7;
+    padding-bottom: 5px;
+    margin: 25px 0 15px;
+}
+
+/* Tela de Login ------------------------------------------------------------------------*/
+.login-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #0a3a92;
+    border: 2px solid #f8dca7;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #f8dca7;
+    margin-bottom: 30px;
+}
+
+.login-container label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+}
+
+.login-container input[type="button"] {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #032055;
+    color: white;
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container input[type="button"]:hover {
+    background-color: #f8dca7;
+    color: #032055;
+}
+
+.login-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-links a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #f8dca7;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+/* Especificações do Filme */
+.detalhes-filme {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.capa-filme {
+    width: 280px;
+    border-radius: 8px;
+    border: 2px solid #f8dca7;
+}
+
+.informacoes-filme {
+    flex: 1;
+    color: white;
+    line-height: 2;
+}
+
+.informacoes-filme strong {
+    color: #f8dca7;
+}
+
+.content h1 {
+    color: #f8dca7;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #f8dca7;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.especificacoes-link {
+    color: #73ff60;
+    text-decoration: none;
+}
+
+.especificacoes-link:hover {
+    text-decoration: underline;
+}
+
+/* Trailers */
+.trailers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.trailer {
+    background-color: #0a3a92;
+    padding: 15px;
+    border: 2px solid #f8dca7;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trailer h3 {
+    color: #f8dca7;
+    margin-bottom: 10px;
+}
+
+.trailer iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Página de Trilhas Sonoras */
+.trilhas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.musica {
+    background-color: #0a3a92;
+    border: 2px solid #f8dca7;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.musica h3 {
+    color: #f8dca7;
+    margin-bottom: 10px;
+}
+
+.musica p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.musica audio {
+    width: 100%;
+}
+
+/* Página de Contato */
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
+.form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f8dca7;
+    border-radius: 5px;
+}
